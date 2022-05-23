@@ -12,7 +12,7 @@ class Point:
         self.y = y
 
     def __str__(self):
-        return f'x : {self.x}  y:{self.y} '
+        return f'x : {self.x} \t y:{self.y} '
 
     @staticmethod
     def new_cartesian_point(x,y):
